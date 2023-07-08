@@ -2,10 +2,10 @@ programa {
 	funcao inicio() {
 		inteiro numero
 		
-		escreva("Digite um número: ")
+		escreva("Digite um nÃºmero: ")
 		leia(numero )
 		limpa()
-		escreva("O fatorial de ", numero , "é: ", fatorial(numero), "\n)"
+		escreva("O fatorial de ", numero , "Ã©: ", fatorial(numero), "\n)"
 		
 	}
     funcao inteiro fatorial (inteiro numero)
