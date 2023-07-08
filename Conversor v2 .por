@@ -7,7 +7,7 @@ programa
 		inteiro op1, op2
 		cadeia un1="", un2=""
 
-		escreva("Escreva qual a unidade inicial: \n(1)Centímetro\n(2)Metro\n(3)Milha Náutica\n(4)Milha\n")
+		escreva("Escreva qual a unidade inicial: \n(1)CentÃ­metro\n(2)Metro\n(3)Milha NÃ¡utica\n(4)Milha\n")
 		leia(op1)
 		limpa()
 		
@@ -18,20 +18,20 @@ programa
 		
 		escolha (op1){
 		    caso 1:
-				un1=" Centímetro"
+				un1=" CentÃ­metro"
 			pare
 			caso 2:
 				un1=" Metro"
 			pare
 			caso 3:
-				un1=" Milha Náutica"
+				un1=" Milha NÃ¡utica"
 			pare
 			caso 4:
 				un1=" Milha"
 			pare
 		}
 		
-		escreva("Dejesa converter" ,un1 , " para qual unidade : \n(1)Centímetro\n(2)Metro\n(3)Milha Náutica\n(4)Milha\n")
+		escreva("Dejesa converter" ,un1 , " para qual unidade : \n(1)CentÃ­metro\n(2)Metro\n(3)Milha NÃ¡utica\n(4)Milha\n")
 		leia(op2)
 		limpa(
 		    )
@@ -140,7 +140,7 @@ programa
 			
 			}
 			
-		escreva("O valor convertido é: ",inicial, un1, " ----> ",convertido, un2)	
+		escreva("O valor convertido Ã©: ",inicial, un1, " ----> ",convertido, un2)	
 			 
 	}
 		
